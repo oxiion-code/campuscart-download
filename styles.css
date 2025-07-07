@@ -1,0 +1,107 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
+  color: #1e3a8a;
+}
+
+/* Header */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+
+/* Main content */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+/* App Card */
+.app-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 100, 0.1);
+  text-align: center;
+}
+
+.app-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.app-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  font-size: 1rem;
+  color: #3b3b3b;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.download-btn:hover {
+  background-color: #16337c;
+}
+/* Contact Us section */
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e6f0ff;
+  color: #1e3a8a;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .app-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .app-title {
+    font-size: 1.4rem;
+  }
+
+  .app-description {
+    font-size: 0.95rem;
+  }
+}
